@@ -3,7 +3,7 @@ def key_for_min_value(name_hash)
  name_hash= name_hash.to_a 
   i = 0 
  while i <name_hash.length 
-  min = 0 
+  min = nil
  name_hash.each do |number|
       binding.pry
    num= number[1]  #the hash's value part of the array
