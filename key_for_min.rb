@@ -3,9 +3,8 @@ def key_for_min_value(name_hash)
  name_hash= name_hash.to_a 
   i = 0 
   min = nil
- while i <name_hash.length 
+  #while i <name_hash.length 
  name_hash.each do |number|
-      #binding.pry
    num= number[1]  #the hash's value part of the array
    if min == nil || num<min 
       min=num
@@ -14,10 +13,12 @@ def key_for_min_value(name_hash)
       i+=1 
     end
   end
+        binding.pry
+
  name_hash.each do |array|
    if array[1] == min
      return array[1] 
    end 
   end
-end
+#end
 end 
