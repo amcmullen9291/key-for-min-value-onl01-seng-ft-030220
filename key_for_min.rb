@@ -13,11 +13,11 @@ def key_for_min_value(name_hash)
     else
       i+=1 
     end
+  end
  name_hash.each do |array|
    if array[1] == min
      return array[1] 
    end 
   end
-end
 end
 end 
