@@ -1,6 +1,6 @@
 require 'pry'
 def key_for_min_value(name_hash)
- name_hash.to_a 
+ name_hash= name_hash.to_a 
   i = 0 
  while i <name_hash.length 
   min = 0 
