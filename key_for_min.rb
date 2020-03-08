@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
       i+=1 
     end
   end
-        binding.pry
+        #binding.pry
 
  name_hash.each do |array|
    if array[1] == min
