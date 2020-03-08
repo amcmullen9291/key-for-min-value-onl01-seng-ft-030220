@@ -20,5 +20,6 @@ def key_for_min_value(name_hash)
      return array[0] 
    end 
   end
+  nil 
 #end
 end 
