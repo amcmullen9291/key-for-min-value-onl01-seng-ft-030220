@@ -2,12 +2,12 @@ require 'pry'
 def key_for_min_value(name_hash)
  name_hash= name_hash.to_a 
   i = 0 
- while i <name_hash.length 
   min = nil
+ while i <name_hash.length 
  name_hash.each do |number|
-      binding.pry
+      #binding.pry
    num= number[1]  #the hash's value part of the array
-   if num<min 
+   if min == nil || num<min 
       min=num
       i+=1 
     else
