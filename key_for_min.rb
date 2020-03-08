@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
   min = 0 
  name_hash.each do |number|
    num= number[2]  #the hash's value part of the arry
+   binding.pry
    if num<min 
       min=num
       i+=1 
