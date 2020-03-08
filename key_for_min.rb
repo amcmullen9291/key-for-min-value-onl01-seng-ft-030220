@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
  while i <name_hash.length 
   min = 0 
  name_hash.each do |number|
-   num= number[1]  #the hash's value part of the arry
+   num= number[1]  #the hash's value part of the array
    binding.pry
    if num<min 
       min=num
